@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #0c0b15;
+  --secondary: #4e307a;
+}
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  margin-left: 275px;
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  margin-top: 200px;
+  background-color: var(--secondary);
+  border-radius: 14px;
+}
+
+.text-animation-letter{
+  fill: none;
+  stroke-width: 3;
+  stroke-linejoin: round;
+  stroke-dasharray: 70 330;
+  stroke-dashoffset: 0;
+  -webkit-animation: stroke 6s infinite linear;
+  animation: stroke 6s infinite linear;
+  font-size: 100px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  user-select: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #fff !important;
+}
+.color{
+  color : #047dee70
+}
+.text-animation-letter:nth-of-type(5n + 1) {
+  stroke: #077CEB;
+  -webkit-animation-delay: -1.2s;
+  animation-delay: -1.2s;
+}
+.text-animation-letter:nth-of-type(5n + 2) {
+  stroke: #eb077c;
+  -webkit-animation-delay: -2.4s;
+  animation-delay: -2.4s;
+}
+.text-animation-letter:nth-of-type(5n + 3) {
+  stroke: #077CEB;
+  -webkit-animation-delay: -3.6s;
+  animation-delay: -3.6s;
+}
+.text-animation-letter:nth-of-type(5n + 4) {
+  stroke: #eb077c;
+  -webkit-animation-delay: -4.8s;
+  animation-delay: -4.8s;
+}
+.text-animation-letter:nth-of-type(5n + 5) {
+  stroke: #ebe807;
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400;
+  }
+}
+
+
+@-webkit-keyframes strokeTwo {
+  100% {
+    stroke-dashoffset: -40;
+  }
+}
+@keyframes strokeTwo {
+  100% {
+    stroke-dashoffset: -40;
+  }
+}
+
+.w-40 {
+  width: 50% !important;
+}
+
+
+
+@media (max-width: 768px) {
+  .w-50 {
+    width: 60% !important;
+    margin: auto;
+  }
+}
+.card-project{
+  height: 23rem;
+}
