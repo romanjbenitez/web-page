@@ -4,7 +4,6 @@ import { AiOutlineMenu, AiFillCloseCircle } from 'react-icons/ai'
 import { motion } from 'framer-motion'
 import { links } from '@/lib/data'
 import { useMenu } from '@/hooks/useMenu'
-import Image from 'next/image'
 import { useActiveSection } from '@/hooks/useActiveSection'
 import Link from 'next/link'
 
@@ -35,15 +34,6 @@ function Header() {
             <AiOutlineMenu className='opacity h-6 w-6 rounded bg-primary/50' />
           )}
         </label>
-        <picture>
-          <Image
-            src='/icon.png'
-            width={36}
-            height={36}
-            alt='logo'
-            className='absolute left-4 top-4 sm:hidden'
-          />
-        </picture>
         <input readOnly checked={isOpen} type='checkbox' id={menuId} hidden />
         <ul
           className={`flex flex-col items-center justify-center gap-8 bg-primary/90 transition-all duration-200 sm:flex sm:h-auto sm:flex-row sm:bg-transparent ${
