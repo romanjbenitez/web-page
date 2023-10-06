@@ -10,7 +10,6 @@ export default function Home() {
     <main className='relative h-screen w-full'>
       <BackgroundAnimation />
       <Intro />
-
       <About />
       <Projects />
       <Contact />
