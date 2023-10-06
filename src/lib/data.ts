@@ -1,5 +1,5 @@
 import { BiLogoGmail, BiLogoUpwork } from 'react-icons/bi'
-import { SiLeetcode, SiGithub } from 'react-icons/si'
+import { SiLeetcode, SiGithub, SiCodewars} from 'react-icons/si'
 
 export const links = [
   {
@@ -24,10 +24,10 @@ export const socialMedias = [
   {
     id: 1,
     name: 'Upwork',
-    link: 'https://www.codewars.com/users/codiegos',
+    link: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
     icon: BiLogoUpwork,
     color: '#6fda44',
-    clipboardCopy: 'https://www.codewars.com/users/codiegos',
+    clipboardCopy: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
   },
   {
     id: 4,
@@ -40,10 +40,10 @@ export const socialMedias = [
   {
     id: 2,
     name: 'LeetCode',
-    link: 'https://www.codewars.com/users/codiegos',
+    link: 'https://leetcode.com/Romanbenitez/',
     icon: SiLeetcode,
     color: '#fea016',
-    clipboardCopy: 'https://www.codewars.com/users/codiegos',
+    clipboardCopy: 'https://leetcode.com/Romanbenitez/',
   },
   {
     id: 3,
@@ -52,6 +52,14 @@ export const socialMedias = [
     icon: BiLogoGmail,
     color: '#EA4335',
     clipboardCopy: 'roman200217@gmail.com',
+  },
+  {
+    id: 5,
+    name: 'CodeWars',
+    link: 'https://www.codewars.com/users/romanjbenitez',
+    icon: SiCodewars,
+    color: '#B1361F',
+    clipboardCopy: 'https://www.codewars.com/users/romanjbenitez',
   },
 
 ] as const
