@@ -2,12 +2,11 @@
 
 import { m } from 'framer-motion'
 import { useEffect, useRef } from 'react'
-import { canvasImages } from '../lib/data'
-import Selenium from '../../public/images/icons/selenium.png'
+import { canvasImages } from '@/lib/data'
+
 export function BackgroundAnimation() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   useEffect(() => {
-    const arrayOfImages = [Selenium]
     const canvas = canvasRef.current
     if (!canvas) return
     const images = canvasImages.map((source) => {
@@ -15,13 +14,6 @@ export function BackgroundAnimation() {
       image.src = source
       return image
     })
-    arrayOfImages.map(img => {
-      const icon = document.createElement('img')
-      icon.src = img.src
-      images.push(icon)
-    })
-    console.log(images)
-
     let ctx = canvas.getContext('2d') as CanvasRenderingContext2D
     const mouse = { x: -1000, y: -1000 }
     canvas.addEventListener('mousemove', (e) => {
