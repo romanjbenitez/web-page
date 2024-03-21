@@ -35,7 +35,7 @@ function ExperienceCard({
           {moreTextBtn && moreText}
           {hasMoreText && (
             <span
-              className='cursor-pointer text-sky-300 hover:text-violet-400'
+              className='cursor-pointer text-sky-300 hover:text-sky-400'
               onClick={() => setMoreTextBtn(!moreTextBtn)}
             >
               {moreTextBtn ? ' Read less.' : ' Read more...'}
