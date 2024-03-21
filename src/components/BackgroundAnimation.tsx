@@ -91,7 +91,7 @@ export function BackgroundAnimation() {
             image,
           ),
       )
-      canvas.width = innerWidth
+      canvas.width = innerWidth - 3
       canvas.height = innerHeight
     }
     const animate = () => {

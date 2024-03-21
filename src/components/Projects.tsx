@@ -8,7 +8,7 @@ import { useRef } from 'react'
 
 
 function Projects() {
-  const { ref } = useSectionInView('My services')
+  const { ref } = useSectionInView('What can I do?')
   const refScroll = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: refScroll,
@@ -29,7 +29,7 @@ function Projects() {
         }}
       >
         <h2 className='text-3xl font-bold text-sky-400 sm:text-4xl'>
-          My services
+          What can I do?
         </h2>
         <article className='grid place-content-center justify-between gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-3'>
           {services.map(({ id, name, image, desc }, index) => (

@@ -1,5 +1,5 @@
 import { BiLogoGmail, BiLogoUpwork } from 'react-icons/bi'
-import { SiLeetcode, SiGithub, SiCodewars} from 'react-icons/si'
+import { SiLeetcode, SiGithub, SiCodewars, SiLinkedin} from 'react-icons/si'
 
 export const links = [
   {
@@ -11,7 +11,7 @@ export const links = [
     hash: '#about',
   },
   {
-    name: 'My services',
+    name: 'What can I do?',
     hash: '#services',
   },
   {
@@ -23,27 +23,19 @@ export const links = [
 export const socialMedias = [
   {
     id: 1,
-    name: 'Upwork',
+    name: 'linkedin',
     link: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
-    icon: BiLogoUpwork,
-    color: '#6fda44',
-    clipboardCopy: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
+    icon: SiLinkedin,
+    color: '#F5FEFD',
+    clipboardCopy: 'https://www.linkedin.com/in/romanjbenitez/',
   },
   {
     id: 4,
     name: 'Github',
     link: 'https://github.com/romanjbenitez',
     icon: SiGithub,
-    color: '#ffffff',
+    color: '#F5FEFD',
     clipboardCopy: 'https://github.com/romanjbenitez',
-  },
-  {
-    id: 2,
-    name: 'LeetCode',
-    link: 'https://leetcode.com/Romanbenitez/',
-    icon: SiLeetcode,
-    color: '#fea016',
-    clipboardCopy: 'https://leetcode.com/Romanbenitez/',
   },
   {
     id: 3,
@@ -54,12 +46,29 @@ export const socialMedias = [
     clipboardCopy: 'roman200217@gmail.com',
   },
   {
+    id: 2,
+    name: 'LeetCode',
+    link: 'https://leetcode.com/Romanbenitez/',
+    icon: SiLeetcode,
+    color: '#fea016',
+    clipboardCopy: 'https://leetcode.com/Romanbenitez/',
+  },
+
+  {
     id: 5,
     name: 'CodeWars',
     link: 'https://www.codewars.com/users/romanjbenitez',
     icon: SiCodewars,
     color: '#B1361F',
     clipboardCopy: 'https://www.codewars.com/users/romanjbenitez',
+  },
+  {
+    id: 6,
+    name: 'Upwork',
+    link: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
+    icon: BiLogoUpwork,
+    color: '#6fda44',
+    clipboardCopy: 'https://www.upwork.com/freelancers/~0156f3b0bc5f77995f?viewMode=1',
   },
 
 ] as const

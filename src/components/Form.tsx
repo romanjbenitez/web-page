@@ -45,7 +45,7 @@ function Form() {
           type='text'
           name='name'
           className='mt-1 w-full rounded border border-blue-950 bg-primary p-2.5 outline-none brightness-125 placeholder:text-gray-600 focus:ring-1 focus:ring-sky-700/50'
-          placeholder='Johan Liebert'
+          placeholder='Jhon Doee'
           required
           maxLength={100}
         />
@@ -56,7 +56,7 @@ function Form() {
           name='email'
           type='email'
           className='mt-1 w-full rounded-md border border-blue-950 bg-primary p-2.5 outline-none brightness-125 placeholder:text-gray-600 focus:ring-1 focus:ring-sky-700/50'
-          placeholder='johan.liebert@example.com'
+          placeholder='jhondoee@example.com'
           maxLength={150}
           required
         />

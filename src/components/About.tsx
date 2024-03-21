@@ -39,27 +39,46 @@ function About() {
             About Me
           </h2>
           <p className='sm:text-md max-w-2xl 2xl:text-lg'>
-            As a software engineer with more than two years of experience, I am
-            a dedicated and confident professional with a passion for developing
-            and meeting the unique needs of each project. My expertise lies in
-            web development, covering websites, landing pages, and e-commerce
-            solutions. In addition to web development, I have a solid
-            understanding of SEO principles, enabling me to optimize websites
-            for improved search engine visibility. I am also proficient in web
-            scraping using Python and Scrapy, allowing me to efficiently and
-            accurately collect data from websites to support your projects. My
-            toolset includes HTML, CSS, JavaScript, Bootstrap, React.js, and
-            Next.js, which empowers me to create high-quality digital projects.
-            Moreover, I excel at translating Figma and Adobe XD designs into
-            fully functional, pixel-perfect web pages.
+            My name is Roman Benitez, I am a Full Stack Developer with
+            experience in web application development. I am passionate about
+            learning new technologies and applying my knowledge to help others
+            achieve their goals. Currently, I am in my second year of a
+            university degree in artificial intelligence at the Universidad
+            Nacional de Rosario - Facultad de Ciencias Exactas, Ingeniería y
+            Agrimensura - Argentina (UNR) and I am committed to keep myself
+            updated in my field. I am a professional committed to quality and
+            excellence in everything I do. I enjoy working in a team and have
+            effective communication and collaboration skills. I am looking for
+            opportunities to be part of an IT team in a company where I can
+            develop professionally and contribute my skills.
           </p>
 
           <p className='sm:text-md max-w-2xl 2xl:text-lg'>
-            If you're in search of a highly skilled freelance developer who can
-            transform your ideas into visually appealing online solutions,
-            please don't hesitate to reach out. I'm excited to collaborate on
-            your projects and help you achieve your online goals.
+            My technology stack includes:
           </p>
+          <div className='items-beetween flex'>
+            <ul className='mr-9 list-none'>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>SASS/SCSS</li>
+              <li>Tailwind</li>
+              <li>Bootstrap</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>NextJS</li>
+            </ul>
+            <ul className='list-none'>
+              <li>JAVA 1.8</li>
+              <li>Spring Boot</li>
+              <li>Databases (SQL and NoSQL)</li>
+              <li>Python</li>
+              <li>Git</li>
+              <li>Figma</li>
+              <li>SEO</li>
+              <li>Responsive Design</li>
+            </ul>
+          </div>
+
           <div className='flex items-center gap-6'>
             {/* <a
               href='#'

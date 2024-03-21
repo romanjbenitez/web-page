@@ -4,38 +4,41 @@ function Experience() {
     {
       index: 1,
       title: 'Full Stack Software Developer',
-      date: 'Sep-2021 / Present',
+      date: 'April-2023 / Current',
       charge: 'Factor-it',
       description: (
         <p>
-          As a full-stack developer at Factor IT, I specialized in transforming
-          Figma designs into functional applications. I leveraged a range of
-          technologies, including HTML, CSS, JavaScript, React.js, Bootstrap,
-          and Material UI for the front-end.
+          As a developer at Factor IT, I've worked on projects both on the
+          server-side and client-side. On the backend, I've utilized Java 1.7
+          and 1.8 alongside Spring Boot. On the frontend, I've employed modern
+          technologies such as React, SASS, Redux, Material UI, and Bootstrap to
+          craft dynamic and appealing user interfaces, ensuring consistent state
+          in our applications and effective style management.
         </p>
       ),
       hasMoreText: true,
       moreText: (
         <p>
-          On the back-end, I utilized Python with FastAPI and Java with Spring
-          Boot to create robust and efficient services. My focus was on meeting
-          project deadlines and ensuring optimal application performance. I had
-          the opportunity to work with multiple clients across various sectors,
-          including insurance and financial systems.
+          Also, I've actively collaborated with essential tools like Figma for
+          UI design and JIRA for project management.
         </p>
       ),
     },
     {
       index: 2,
-      title: 'Front-end Software Developer',
-      date: 'Feb-2021 / June-2022',
+      title: 'Full Stack Software Developer',
+      date: 'Feb-2022 / April-2023',
       charge: 'Ernst & Young LLP (EY)',
       description: (
         <p className='flex flex-col gap-1'>
-          As a front-end developer at Ey, I have worked with multiple clients,
-          applying agile methodologies to achieve efficient results. Using
-          technologies such as HTML, CSS, JavaScript, and frameworks like
-          React.js, I have crafted appealing user interfaces
+          As a Full Stack developer at EY, I developed custom applications using
+          React.js for the front-end and Node.js and Spring Boot for the
+          back-end. This was my first experience in the industry, and I learned
+          a great deal about both front-end and back-end development during this
+          time. I collaborated with design teams to transform requirements into
+          high-quality functional applications. I encountered exciting technical
+          challenges, gaining valuable experience in project development and
+          effective communication with multidisciplinary teams.
         </p>
       ),
       moreText: <p className='text-violet-100'></p>,
